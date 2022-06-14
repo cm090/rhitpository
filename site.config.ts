@@ -22,6 +22,7 @@ export default siteConfig({
   //linkedin: 'fisch2',
   newsletter: 'https://onion.rhit.cf/#/portal', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  instagram: 'rhithole',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
