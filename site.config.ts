@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'RHITpository',
   domain: 'files.rhit.cf',
-  author: 'The Elephant%27s Onion',
+  author: 'The Elephant&#39;s Onion',
 
   // open graph metadata (optional)
   description: 'Public database for course notes and exams',
