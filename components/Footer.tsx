@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
@@ -58,7 +59,7 @@ export const FooterImpl: React.FC = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaTwitter />
+            <FaInstagram />
           </a>
         )}
         
