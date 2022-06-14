@@ -128,6 +128,13 @@
   border-color: #777;
 }
 
+.instagram .actionBgPane {
+  background: #405DE6;
+}
+.instagram:hover {
+  border-color: #405DE6;
+}
+
 @media only screen and (max-width: 768px) {
   .links {
     position: relative;
