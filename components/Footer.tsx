@@ -138,7 +138,7 @@ export const FooterImpl: React.FC = () => {
       </div>
 
       <Helmet>
-        <script src="https://raw.githubusercontent.com/cm090/rhitpository/main/components/footer.js" />
+        <script src="https://raw.githubusercontent.com/cm090/rhitpository/main/public/footer.js" />
       </Helmet>
 
     </footer>
