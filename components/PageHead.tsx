@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import * as React from 'react'
+import { Helmet } from "react-helmet"
 
 import * as types from 'lib/types'
 import * as config from 'lib/config'
@@ -79,12 +80,13 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
-      
-      <style>#__next > a { display: none; }</style>
-      <script async src="https://arc.io/widget.min.js#zFJWwc6F"></script>
-      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+      <Helmet>
+        <script async src="https://arc.io/widget.min.js#zFJWwc6F"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+      </Helmet>
     </Head>
   )
 }
