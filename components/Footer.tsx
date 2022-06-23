@@ -142,7 +142,7 @@ export const FooterImpl: React.FC = () => {
         <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-        <script src="https://raw.githubusercontent.com/cm090/rhitpository/main/public/footer.js" />
+        <script type="text/javascript" src="https://raw.githubusercontent.com/cm090/rhitpository/main/public/footer.js"></script>
       </Helmet>
 
     </footer>
