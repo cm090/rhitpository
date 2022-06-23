@@ -139,6 +139,8 @@ export const FooterImpl: React.FC = () => {
       
     </footer>
   )
+
+  firebaseAuth();
 }
 
 export const Footer = React.memo(FooterImpl)
