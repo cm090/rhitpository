@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import * as React from 'react'
-import { Helmet } from "react-helmet"
 
 import * as types from 'lib/types'
 import * as config from 'lib/config'
