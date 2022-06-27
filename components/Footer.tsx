@@ -35,6 +35,14 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
+
+      <Helmet>
+        <script async src="https://arc.io/widget.min.js#zFJWwc6F"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+      </Helmet>
+
       <div className={styles.copyright}>Copyright 2022 {config.author}</div>
 
       <div className={styles.settings}>
