@@ -55,3 +55,7 @@ body {
   padding: 5px;
   border-radius: 8px;
 }
+
+iframe.notion-asset-object-fit {
+  border-radius: 8px;
+}
