@@ -36,8 +36,22 @@ body {
 
 .notion-asset-wrapper-pdf > div {
   display: block !important;
+  border-radius: 8px;
+  background: none !important;
+  height: 350px !important;
+}
+
+.notion-asset-wrapper-pdf > div::-webkit-scrollbar {
+  display: none;
 }
 
 .react-pdf__Page__canvas {
   margin: auto;
+}
+
+.notion-asset-wrapper-pdf {
+  background-color: #80808050;
+  margin: auto;
+  padding: 5px;
+  border-radius: 8px;
 }
