@@ -36,7 +36,6 @@ body {
 
 .notion-asset-wrapper-pdf > div {
   display: block !important;
-  border-radius: 8px;
   background: none !important;
   height: 350px !important;
 }
@@ -47,6 +46,7 @@ body {
 
 .react-pdf__Page__canvas {
   margin: auto;
+  border-radius: 8px;
 }
 
 .notion-asset-wrapper-pdf {
