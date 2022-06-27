@@ -35,5 +35,9 @@ body {
 }
 
 .notion-asset-wrapper-pdf > div {
-  height: unset !important;
+  display: block !important;
+}
+
+.react-pdf__Page__canvas {
+  margin: auto;
 }
