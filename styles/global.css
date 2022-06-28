@@ -54,6 +54,7 @@ body {
   margin: auto;
   padding: 5px;
   border-radius: 8px;
+  max-width: 90vw !important;
 }
 
 iframe.notion-asset-object-fit {
